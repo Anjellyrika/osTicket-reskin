@@ -125,13 +125,14 @@ a, .link {
   margin-bottom: 1px;
 }
 a:hover, .link:hover {
-    border-bottom: 1px dotted #0072bc;
+    /* border-bottom: 1px dotted #0072bc; */
+    border-bottom: 1px dotted var(--maroon-dark);
     margin-bottom: 0;
     cursor: pointer;
 }
 h1 {
   /* color: #00AEEF; */
-  color: var(--grey-dark);
+  color: var(--maroon-text);
   font-weight: normal;
   /* font-size: 20px; */
   font-size: 24px;
@@ -156,7 +157,7 @@ h2, .subject {
   display: none;
 }
 .faded {
-  color: #666;
+  color: var(--grey-faded-text);
 }
 /* Pagination */
 #pagination {
