@@ -1,3 +1,15 @@
+/* Color Palette */
+:root {
+  --maroon: #993333;
+  --maroon-light: #c45050;
+  --maroon-dark: #7b1418;
+  --maroon-text: #a8171a;
+  --green: #006c35;
+  --green-light: #20a05e;
+  --grey-light: #f8f9fa;
+  --grey-faded-text: #9a9a9a;
+  --grey-dark: #333333;
+}
 html {
   font-size: 100%;
   overflow-y: scroll;
@@ -61,14 +73,9 @@ textarea {
   font-size: 100%;
   margin: 0;
   vertical-align: baseline;
-  *vertical-align: middle;
 }
 input {
   line-height: normal;
-  *overflow: visible;
-}
-table input {
-  *overflow: auto;
 }
 input[type="button"],
 input[type="reset"],
@@ -111,7 +118,8 @@ fieldset {
 }
 /* Typography */
 a, .link {
-  color: #0072bc;
+  /* color: #0072bc; */
+  color: var(--maroon-text);
   text-decoration: none;
   display: inline;
   margin-bottom: 1px;
@@ -122,9 +130,11 @@ a:hover, .link:hover {
     cursor: pointer;
 }
 h1 {
-  color: #00AEEF;
+  /* color: #00AEEF; */
+  color: var(--grey-dark);
   font-weight: normal;
-  font-size: 20px;
+  /* font-size: 20px; */
+  font-size: 24px;
 }
 h3 {
   font-size: 16px;
@@ -274,23 +284,28 @@ h2, .subject {
 .button:visited,
 .green.button,
 .green.button:visited {
-  background-color: #91bd09;
+  /* background-color: #91bd09; */
+  background-color: var(--green);
 }
 .green.button:hover {
-  background-color: #749a02;
+  /* background-color: #749a02; */
+  background-color: var(--green-light);
 }
 .blue.button,
 .blue.button:visited {
-  background-color: #00AEEF;
+  /* background-color: #00AEEF; */
+  background-color: var(--maroon);
 }
 .blue.button:hover {
-  background-color: #0299d2;
+  /* background-color: #0299d2; */
+  background-color: var(--maroon-light);
 }
 body {
   background: url('../images/page_bg.png') top left repeat-x #c8c8c8;
 }
 #container {
-  background: #fff;
+  /* background: #fff; */
+  background-color: var(--grey-light);
   width: 840px;
   margin: 0 auto;
   box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
