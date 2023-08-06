@@ -484,6 +484,10 @@ body {
 #landing_page h1, #landing_page h2, #landing_page h3 {
     margin-bottom: 10px;
 }
+#landing_page .sidebar {
+    order: 1;
+    width: 566px;
+}
 /* Landing page FAQ not yet implemented. */
 #faq {
   clear: both;
@@ -994,9 +998,7 @@ img.sign-in-image {
 .sidebar {
     margin-bottom: 20px;
     margin-left: 20px;
-    order: 1;
-    /* width: 215px; */
-    width: 566px;
+    width: 215px;
 }
 .rtl .sidebar {
     margin-left: 0;
