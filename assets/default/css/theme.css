@@ -413,7 +413,6 @@ body {
   padding: 20px 0;
   margin: 0 20px;
   height: auto !important;
-  height: 350px;
   min-height: 350px;
 }
 #footer {
@@ -438,9 +437,18 @@ body {
   background-size: auto 20px;
 }
 .front-page-button {
+  display: flex;
+  grid-gap: 1.25rem;
+  justify-content: center;
 }
 .main-content {
   width: 565px;
+  order: 2;
+}
+#landing_page {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
 }
 #landing_page #new_ticket {
   margin-top: 40px;
@@ -968,7 +976,9 @@ img.sign-in-image {
 .sidebar {
     margin-bottom: 20px;
     margin-left: 20px;
-    width: 215px;
+    order: 1;
+    /* width: 215px; */
+    width: 566px;
 }
 .rtl .sidebar {
     margin-left: 0;
