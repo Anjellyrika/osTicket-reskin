@@ -303,12 +303,10 @@ h2, .subject {
 }
 body {
   background-image: url('../images/page_bg.png');
-  background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
+  background-size: cover;
   min-height: 100vh;
-}
-body::before {
-  background-color: rgba(143, 73, 73, 0.542);
 }
 #container {
   /* background: #fff; */
