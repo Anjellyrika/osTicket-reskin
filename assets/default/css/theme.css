@@ -301,6 +301,24 @@ h2, .subject {
   /* background-color: #0299d2; */
   background-color: var(--maroon-light);
 }
+.front-page-button .button {
+  border-radius: 0.75rem;
+  font-weight: 600;
+  gap: 0.75rem;
+  padding: 1.25em;
+}
+.front-page-button .blue.button::before {
+  content: "\f145\00a0";
+  font-family: fontAwesome;
+  font-size: xx-large;
+  font-weight: normal;
+}
+.front-page-button .green.button::before {
+  content: "\f002\00a0";
+  font-family: fontAwesome;
+  font-size: xx-large;
+  font-weight: normal;
+}
 body {
   background-image: url('../images/page_bg.png');
   background-position: center;
