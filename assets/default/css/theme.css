@@ -313,8 +313,10 @@ body::before {
 #container {
   /* background: #fff; */
   background-color: var(--grey-light);
+  border-radius: 1.25rem;
+  margin: 2rem auto;
+  padding: 1.25rem;
   width: 840px;
-  margin: 0 auto;
   box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
   -moz-box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
   -webkit-box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
